@@ -10,10 +10,6 @@
     <!-- Vendor blobs -->
     <project path="vendor/oneplus" name="sailfishos-oneplus5/proprietary_vendor_oneplus_msm8998" />
 
-    <!-- Removed the useless bootanimation/ directory which causes build issues without additional dependencies -->
-    <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-    <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" />
-
 
     <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
     <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="master" />
