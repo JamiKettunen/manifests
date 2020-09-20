@@ -15,6 +15,9 @@
     <project path="hybris-patches" name="sailfishos-oneplus5/hybris-patches" />
 
 
+    <!-- For "make libbiometry_fp_api_32" before building SFOS RPMs -->
+    <project path="hybris/mw/sailfish-fpd-community" name="piggz/sailfish-fpd-community" revision="master" />
+
     <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
     <project path="hybris/hybris-installer" name="sailfishos-oneplus5/hybris-installer" revision="master" />
 
