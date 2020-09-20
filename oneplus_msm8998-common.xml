@@ -12,7 +12,7 @@
 
     <!-- Forked hybris-patches with frameworks/av/ build fix for droidmedia -->
     <remove-project path="hybris-patches" name="mer-hybris/hybris-patches" />
-    <project path="hybris-patches" name="sailfishos-oneplus5/hybris-patches" />
+    <project path="hybris-patches" name="sailfishos-oneplus5/hybris-patches" revision="hybris-16.0" />
 
 
     <!-- For "make libbiometry_fp_api_32" before building SFOS RPMs -->
