@@ -14,6 +14,10 @@
     <remove-project path="hybris-patches" name="mer-hybris/hybris-patches" />
     <project path="hybris-patches" name="sailfishos-oneplus5/hybris-patches" revision="hybris-16.0" />
 
+    <!-- Forked hybris-boot with miscellaneous fixes for OP5/5T devices -->
+    <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
+    <project path="hybris/hybris-boot" name="sailfishos-oneplus5/hybris-boot" revision="custom" />
+
 
     <!-- For "make libbiometry_fp_api_32" before building SFOS RPMs -->
     <project path="hybris/mw/sailfish-fpd-community" name="piggz/sailfish-fpd-community" revision="master" />
