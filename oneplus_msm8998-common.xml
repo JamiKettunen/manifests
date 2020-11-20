@@ -10,10 +10,6 @@
     <!-- Vendor blobs -->
     <project path="vendor/oneplus" name="sailfishos-oneplus5/proprietary_vendor_oneplus_msm8998" />
 
-    <!-- Forked hybris-patches with frameworks/av/ build fix for droidmedia -->
-    <remove-project path="hybris-patches" name="mer-hybris/hybris-patches" />
-    <project path="hybris-patches" name="sailfishos-oneplus5/hybris-patches" revision="hybris-16.0" />
-
     <!-- Forked hybris-boot with miscellaneous fixes for OP5/5T devices -->
     <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
     <project path="hybris/hybris-boot" name="sailfishos-oneplus5/hybris-boot" revision="custom" />
